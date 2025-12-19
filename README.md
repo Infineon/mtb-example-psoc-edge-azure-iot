@@ -8,7 +8,7 @@ This code example has a three project structure: CM33 secure, CM33 non-secure, a
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc-edge-azure-iot)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzk5MTAiLCJTcGVjIE51bWJlciI6IjAwMi0zOTkxMCIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBDb25uZWN0aW5nIHRvIEF6dXJlIElvVCB1c2luZyBBenVyZSBTREsgZm9yIEMiLCJyaWQiOiJzbmVoYSBzYXJhdmFuYWt1bWFyIiwiRG9jIHZlcnNpb24iOiIyLjAuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzk5MTAiLCJTcGVjIE51bWJlciI6IjAwMi0zOTkxMCIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBDb25uZWN0aW5nIHRvIEF6dXJlIElvVCB1c2luZyBBenVyZSBTREsgZm9yIEMiLCJyaWQiOiJzbmVoYSBzYXJhdmFuYWt1bWFyIiwiRG9jIHZlcnNpb24iOiIyLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 See the [Design and implementation](docs/design_and_implementation.md) for the functional description of this code example.
 
@@ -48,6 +48,12 @@ Ensure the following jumper and pin configuration on board.
 
 See the [ModusToolbox&trade; tools package installation guide](https://www.infineon.com/ModusToolboxInstallguide) for information about installing and configuring the tools package.
 
+<details><summary><b>Python</b></summary>
+
+Download Python version 3.8-3.12 from the official website: [Python](https://www.python.org). After installation, add the Python directory to your system path environment variables. This will allow you to easily run Python commands from anywhere in your terminal.
+
+</details>
+
 Open a CLI terminal and navigate to the *scripts* directory. Run the following command to ensure the required modules are installed ("Requirement already satisfied" is printed).
 
    ```
@@ -67,12 +73,6 @@ This example requires the setup of Azure IoT Hub on the Microsoft Azure portal. 
 - [Azure IoT tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit)
 
 - [Set Azure IoT Hub in VS code](https://devblogs.microsoft.com/iotdev/introducing-azure-iot-tools-for-visual-studio-code/#set-up-your-azure-iot-hub-in-vs-code)
-
-</details>
-
-<details><summary><b>Python</b></summary>
-
-Download Python version 3.8-3.12 from the official website: [Python](https://www.python.org). After installation, add the Python directory to your system path environment variables. This will allow you to easily run Python commands from anywhere in your terminal.
 
 </details>
 
@@ -399,6 +399,7 @@ Document title: *CE239910* – *PSOC&trade; Edge MCU: Connecting to Azure IoT us
  ------- | ---------------------
  1.x.0   | New code example <br> Early access release
  2.0.0   | GitHub release 
+ 2.1.0   | Updated README
 <br>
 
 
